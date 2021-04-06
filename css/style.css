@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
+h1{
+  color: #0D5EAF;
+  font-family: "GFS Neohellenic", "Teko", "Helvetica";
+  font-size: 100px;
+  text-align: center;
+}
+
+body{
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+nav{
+  text-align: center;
+  margin-top: -55px;
+}
+
+nav ul{
+  width: 960px;
+  padding-left: 0;
+}
+
+nav li{
+  display: inline-block;
+  width: 20%;
+  font-family: "Teko", "GFS Neohellenic", "Helvetica";
+  font-size: 25px;
+}
+
+nav a:link{
+  text-decoration: none;
+  color: #0D5EAF;
+}
+
+nav a:visited{
+  color:#6fbbd3;
+}
+
+nav a:hover{
+  color: #fff;
+  background-color: #0D5EAF;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+
+nav a:active{
+  text-decoration: underline;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
