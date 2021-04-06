@@ -60,6 +60,10 @@ main{
   row-gap: 20px;
 }
 
+h3{
+  color: #6fbbd3;
+}
+
 #introduction{
   grid-column-start: 1;
   grid-column-end: -1;
@@ -70,6 +74,33 @@ main{
   grid-column-start: 1;
   grid-column-end: -1;
   grid-row-start: 3;
+}
+
+.natural-resources-list{
+  padding-left: 0px;
+}
+
+.natural-resources-list li{
+  display: inline-block;
+  background-color: #6fbbd3;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+
+#people-and-society{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 4;
+}
+
+#government{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 5;
 }
 
 .geography-text{
