@@ -3,7 +3,7 @@
 
 h1{
   color: #0D5EAF;
-  font-family: "GFS Neohellenic", "Teko", "Helvetica";
+  font-family: "GFS Neohellenic", "Teko", "Helvetica", sans-serif;
   font-size: 100px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ nav ul{
 nav li{
   display: inline-block;
   width: 20%;
-  font-family: "Teko", "GFS Neohellenic", "Helvetica";
+  font-family: "Teko", "GFS Neohellenic", "Helvetica", sans-serif;
   font-size: 25px;
 }
 
@@ -53,27 +53,46 @@ nav a:active{
   text-decoration: underline;
 }
 
-main{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
-}
-
 h3{
   color: #6fbbd3;
 }
 
-#introduction{
+.greece-flag{
+  float: left;
+  margin-left: 0;
+}
+
+figcaption{
+  padding: 5px;
+}
+.introduction-text{
+  padding: 2px;
+}
+
+#geography{
+  display: grid;
+  width: 960px;
+  grid-template-columns: 330px 1fr;
+  column-gap: 20px;
+}
+
+.geography-header{
   grid-column-start: 1;
   grid-column-end: -1;
   grid-row-start: 1;
 }
 
-#geography{
+.greece-map{
   grid-column-start: 1;
   grid-column-end: -1;
-  grid-row-start: 3;
+  grid-row-start: 2;
+  margin-left: 0;
+}
+
+.geography-text{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
 }
 
 .natural-resources-list{
@@ -84,7 +103,10 @@ h3{
   display: inline-block;
   background-color: #6fbbd3;
   color: #fff;
-  padding: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
   margin-bottom: 10px;
   margin-right: 3px;
   font-weight: bold;
@@ -92,26 +114,42 @@ h3{
 
 
 #people-and-society{
+  display: grid;
+  grid-template-columns: 1fr 350px 250px;
+  column-gap: 20px;
+}
+
+.people-and-society-header{
   grid-column-start: 1;
   grid-column-end: -1;
-  grid-row-start: 4;
+  grid-row-start: 1;
+}
+
+.people-and-society-left-text{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+}
+
+.people-and-society-right-text{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+
+.people-and-society-sidebar{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  background-color: #eee;
+  border-radius: 5px;
 }
 
 #government{
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row-start: 5;
-}
 
-.geography-text{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  padding-top: 75px;
 }
 
 h2{
-  text-decoration: underline;
   color: #fff;
   background-color: #0D5EAF ;
   font-family: "Teko", "GFS Neohellenic", "Helvetica";
