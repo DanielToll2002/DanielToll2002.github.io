@@ -32,12 +32,21 @@ nav li{
   font-size: 25px;
 }
 
-nav a:link, a:link{
+nav a:link{
   text-decoration: none;
   color: #0D5EAF;
 }
 
-nav a:visited, a:visited{
+a:link{
+  text-decoration: none;
+  color: #0D5EAF;
+}
+
+nav a:visited{
+  color:#6fbbd3;
+}
+
+a:visited{
   color:#6fbbd3;
 }
 
@@ -54,6 +63,10 @@ a:hover{
 }
 
 nav a:active, a:active{
+  text-decoration: underline;
+}
+
+a:active{
   text-decoration: underline;
 }
 
