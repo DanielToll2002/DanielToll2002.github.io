@@ -89,6 +89,10 @@ a:active{
   text-decoration: underline;
 }
 
+#introduction{
+  width: 960px;
+}
+
 #geography{
   display: grid;
   width: 960px;
@@ -143,6 +147,7 @@ h3{
 
 #people-and-society{
   display: grid;
+  width: 960px;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
 }
@@ -205,6 +210,7 @@ th, td{
 
 #government{
   display: grid;
+  width: 960px;
   grid-template-columns: 2fr 1fr;
   column-gap: 20px;
 }
