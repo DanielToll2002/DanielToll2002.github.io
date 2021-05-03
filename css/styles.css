@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#header{
+  display: grid;
+  width: 960px;
+  grid-template-columns: 384px 576px;
+  border: 3px;
+  border-color: pink;
+  border-style: solid;
+}
+
+h1{
+  font-family: "Krona One", "Helvetica", sans-serif;
+}
+
+nav{
+  font-family: "PT Sans", "Helvetica", sans-serif;
+  text-align: right;
+}
+
+nav ul{
+
+
+}
+
+nav li{
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+nav a{
+
+}
+
+nav a:link{
+
+}
+
+nav a:visited{
+
+}
+
+nav a:hover{
+
+}
+
+nav a:active{
+
+}
