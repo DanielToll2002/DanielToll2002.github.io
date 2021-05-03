@@ -4,56 +4,64 @@
 body{
   max-width: 960px;
   margin: 0 auto;
+  background-color: #222;
 }
 
 #header{
   display: grid;
   width: 960px;
   grid-template-columns: 384px 576px;
-  border: 3px;
-  border-color: pink;
-  border-style: solid;
 }
 
 h1{
   font-family: "Krona One", "Helvetica", sans-serif;
+  font-size: 27px;
+  padding-left: 10px;
+}
+
+.header-title a{
+  text-decoration: none;
+  color: #fff;
+}
+
+em{
+  background-color: #F47321;
+  color: #fff;
+  padding: 1px 5px 1px 3px;
+  margin-left: 10px;
 }
 
 nav{
-  font-family: "PT Sans", "Helvetica", sans-serif;  
+  font-family: "PT Sans", "Helvetica", sans-serif;
   text-align: right;
-}
-
-nav ul{
-
-
 }
 
 nav li{
   display: inline-block;
   text-align: center;
-  width: 15%;
-  border: 3px;
-  border-color: black;
-  border-style: solid;
-}
-
-nav a{
-
+  font-size: 18px;
+  margin-top: 10px;
+  width: 18%;
 }
 
 nav a:link{
-
+  color: #fff;
+  text-decoration: none;
 }
 
 nav a:visited{
-
+  color: #F47321;
 }
 
 nav a:hover{
-
+  color: #fff;
+  background-color: #F47321;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 nav a:active{
-
+  text-decoration: underline;
 }
