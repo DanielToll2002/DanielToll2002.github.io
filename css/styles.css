@@ -24,7 +24,7 @@ h1{
   color: #fff;
 }
 
-em{
+.media{
   background-color: #F47321;
   color: #fff;
   padding: 1px 5px 1px 3px;
@@ -32,8 +32,7 @@ em{
 }
 
 nav{
-  font-family: "Ubuntu", "Helvetica", sans-serif;
-  font-weight: 500;
+  font-family: "Krona One", "Helvetica", sans-serif;
   text-align: right;
 }
 
@@ -44,9 +43,9 @@ main{
 nav li{
   display: inline-block;
   text-align: right;
-  font-size: 17px;
-  margin-top: 13px;
-  margin-left: 40px;
+  font-size: 11px;
+  margin-top: 17px;
+  margin-left: 30px;
 }
 
 nav a:link{
@@ -163,10 +162,19 @@ footer{
   font-weight: 400;
   grid-column-start: 1;
   grid-column-end: 2;
+  margin-top: -15px;
 }
+
+.fun-facts-list li{
+  margin-bottom: 10px;
+  padding-right: 15px;
+}
+
 h4{
   font-family: "Krona One", "Helvetica", sans-serif;
   color:#fff;
+  font-size: 15px;
+  text-align: center;
 }
 
 .bucket-list-adventure{
@@ -179,4 +187,5 @@ h4{
   padding-right: 25px;
   text-align: justify;
   color: #fff;
+  margin-top: -20px;
 }
