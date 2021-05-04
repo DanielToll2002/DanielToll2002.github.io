@@ -194,6 +194,7 @@ h4{
   margin: 0 auto;
   margin-top: -18px;
   line-height: 1.5;
+  padding-bottom: 10px
 }
 
 .experience-header{
@@ -284,6 +285,7 @@ h4{
   margin-top: -18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .category-5-header{
@@ -300,12 +302,23 @@ h4{
   max-width: 960px;
   margin: 0 auto;
   line-height: 1.5;
+}
+
+.category-5-involvement{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  padding-bottom: 5px;
+}
+
+.category-5-up-next{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+#category-5-gallery{
+  max-width: 960px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-}
-
-.category-5-text{
-  grid-column-start: 1;
-  grid-column-end: -1;
 }
