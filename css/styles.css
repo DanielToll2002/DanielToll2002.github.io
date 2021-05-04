@@ -277,3 +277,35 @@ h4{
   grid-column-start: 3;
   grid-column-end: 4;
 }
+
+#category-5-about{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: -18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.category-5-header{
+  padding-top: 18px;
+}
+
+.category-5-logo{
+  float: right;
+  padding-left: 15px;
+  text-align: right;
+}
+
+#category-5-content{
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.category-5-text{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
