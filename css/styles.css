@@ -366,3 +366,47 @@ h4{
   grid-column-start: 1;
   grid-column-end: 2;
 }
+
+#umtv-about{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: -18px;
+  padding-bottom: 5px;
+}
+
+.umtv-header{
+  padding-top: 18px;
+}
+
+.umtv-logo{
+  float: right;
+  text-align: right;
+  padding-left: 15px;
+}
+
+#umtv-content{
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 470px 470px;
+}
+
+.umtv-involvement{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.newsvision-logo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.newsvision-package{
+  float: right;
+}
+
+.umtv-up-next{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
