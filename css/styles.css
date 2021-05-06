@@ -311,6 +311,7 @@ a:visited{
   float: right;
   padding-left: 15px;
   text-align: right;
+  padding-top:15px;
 }
 
 #category-5-content{
@@ -409,7 +410,12 @@ a:visited{
   grid-column-end: -1;
 }
 
+.sportsdesk-logo{
+  padding-top:15px;
+}
+
 .newsvision-logo{
+  padding-top: 15px;
   grid-column-start: 2;
   grid-column-end: 3;
 }
